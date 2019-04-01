@@ -3,7 +3,7 @@
 # Many Thanks to the  author in this place!
 
 
-FROM j1mr10rd4n/debian-baseimage-docker:8.2.1
+FROM j1mr10rd4n/debian-baseimage-docker
 MAINTAINER Michael Mayer <swd@michael-mayer.biz>
 
 

@@ -6,7 +6,7 @@ version: '2'
 services:
   freepbx:
     build: .
-    image: mima84/docker-freepbx
+    image: atom76/docker-freepbx
     container_name: freepbx
     volumes:
       - freepbx-apache:/etc/apache2
@@ -22,4 +22,4 @@ volumes:
   freepbx-asterisk-spool:
   freepbx-asterisk-data:
 
-      #VOLUME ["/etc/asterisk","/etc/apache2","/var/www/html","/var/lib/mysql","/var/spool/asterisk","/var/lib/asterisk"]
+#VOLUME ["/etc/asterisk","/etc/apache2","/var/www/html","/var/lib/mysql","/var/spool/asterisk","/var/lib/asterisk"]
